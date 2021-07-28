@@ -3,7 +3,8 @@ import  "./css/Users.css";
 const Users = ({loading,users}) => {
     return loading ? (   
           <div id="loders">
-            <img src="https://i.gifer.com/DzUu.gif" alt="Loaading.." className="loader"/>
+            <h3 className="loader">No Data Found</h3>
+            <h4 className="loaders">Click On Get User</h4>
           </div>
         ) : 
         (
